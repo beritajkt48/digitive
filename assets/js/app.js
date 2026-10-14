@@ -1,5 +1,5 @@
 /* ===== KONFIGURASI (edit di sini) ===== */
-const WA_NUMBER = "6285711128781";           // 085711128781
+const WA_NUMBER = "6289699723783";           // 
 const IMG = { banner:"assets/img/banner.png", produk:"assets/img/produk.png", qris:"assets/img/QRIS.png" };
 const PRODUCTS = [
   {
