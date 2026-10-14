@@ -4,24 +4,49 @@ const IMG = { banner:"assets/img/banner.png", produk:"assets/img/produk.png", qr
 const PRODUCTS = [
   {
     id: 1,
-    name: "Nama Produk Anda",
-    category: "Streaming",
+    name: "CAPCUT PRIVATE",
+    category: "Productivity Tools",
     img: IMG.produk,
-    desc: "Deskripsi produk Anda.",
+    desc: "CapCut adalah aplikasi editing video populer yang mudah digunakan untuk semua orang. Cocok untuk content creator, editor, maupun pemula yang ingin menghasilkan video keren hanya dengan smartphone.",
     variants: [
-      { name: "Varian A", price: 10000, stock: 20 },
-      { name: "Varian B", price: 15000, stock: 5 },
-      { name: "Varian C", price: 20000, stock: 0 }
+      { name: "30 DAY", price: 32000, stock: 5 }
     ]
   },
   {
     id: 2,
-    name: "Produk Kedua",
-    category: "Game",
+    name: "CANVA",
+    category: "Productivity Tools",
     img: IMG.produk,
-    desc: "Deskripsi produk kedua.",
+    desc: "Canva adalah aplikasi desain grafis populer yang memudahkan siapa saja membuat poster, konten sosial media, presentasi, logo, hingga video dengan cepat dan praktis.",
     variants: [
-      { name: "Varian A", price: 10000, stock: 10 }
+      { name: "1 BULAN PRO (INVITE)", price: 5000, stock: 5 },
+      { name: "6 BULAN EDU GARANSI 3 BULAN", price: 8000, stock: 5 },
+      { name: "1 TAHUN EDU GARANSI 6 BULAN", price: 15000, stock: 5 },
+      { name: "LIFETIME GARANSI 6 BULAN", price: 20000, stock: 5 },
+      { name: "LIFETIME GARANSI 1 TAHUN", price: 22000, stock: 5 }
+    ]
+    },
+  {
+    id: 3,
+    name: "X / TWITTER",
+    category: "Productivity Tools",
+    img: IMG.produk,
+    desc: "X Premium adalah layanan berlangganan berbayar opsional dari platform media sosial X yang memberikan berbagai fitur tambahan dan peningkatan visibilitas kepada penggunanya.",
+    variants: [
+      { name: "PREMIUM 3 BULAN", price: 110000, stock: 1 },
+      { name: "PREMIUM 6 BULAN", price: 200000, stock: 1 }
+    ]
+    },
+  {
+    id: 4,
+    name: "NETFLIX",
+    category: "Streaming",
+    img: IMG.produk,
+    desc: "Netflix Premium adalah paket berlangganan resmi dari Netflix yang memberikan akses penuh untuk menonton ribuan film, serial, dokumenter, anime, hingga tayangan eksklusif Netflix Original tanpa batas. Dengan kualitas gambar terbaik dan fitur multi-device, kamu bisa menikmati hiburan kapan saja, di mana saja, sesuai kebutuhan.",
+    variants: [
+      { name: "1 DAY All Devices", price: 6000, stock: 1 },
+      { name: "2 USER 1 PROFIL Garansi 25-30 Hari", price: 22000, stock: 1 },
+      { name: "1 USER 1 PROFIL Garansi 25-30 Hari", price: 35000, stock: 1 }
     ]
   }
 ];
