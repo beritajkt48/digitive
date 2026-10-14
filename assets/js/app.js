@@ -104,7 +104,7 @@ function cartPage(){
 }
 function orderText(name){
   const L=cart.map((c,i)=>{const{p,v,sub}=detail(c);return `${i+1}. ${p.name} - ${v.name} x${c.qty} = ${rp(sub)}`});
-  return `*ORDERAN BARU*\n\nNama: ${name}\nTanggal: ${new Date().toLocaleString("id-ID")}\n\n*Pesanan:*\n${L.join("\n")}\n\n*Total: ${rp(total())}*\nPembayaran: QRIS\n\nSaya sudah melakukan pembayaran, berikut bukti transfernya. Mohon diproses, terima kasih 🙏`}
+  return `*ORDERAN BARU*\n\nNama: ${name}\nTanggal: ${new Date().toLocaleString("id-ID")}\n\n*Pesanan:*\n${L.join("\n")}\n\n*Total: ${rp(total())}*\nPembayaran: QRIS\n\nsaya ingin meminta QR untuk melakukan pembayaran. Mohon dikirimkan QR-nya, terima kasih. 🙏`}
 function checkout(){
   if(!cart.length){location.hash="#/keranjang";return}
   app.innerHTML=`<div class="crumb"><a href="#/">Beranda</a> / <a href="#/keranjang">Keranjang</a> / Pembayaran</div><div class="lay"><div>
