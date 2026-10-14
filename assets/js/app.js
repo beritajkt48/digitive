@@ -16,7 +16,7 @@ const PRODUCTS = [
     id: 2,
     name: "CANVA",
     category: "Productivity Tools",
-    img: "assets/img/capcut.png",
+    img: "assets/img/caNVA.png",
     desc: "Canva adalah aplikasi desain grafis populer yang memudahkan siapa saja membuat poster, konten sosial media, presentasi, logo, hingga video dengan cepat dan praktis.",
     variants: [
       { name: "1 BULAN PRO (INVITE)", price: 5000, stock: 5 },
