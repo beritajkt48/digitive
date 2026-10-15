@@ -33,8 +33,8 @@ const PRODUCTS = [
     img: "assets/img/twitter.png",
     desc: "X Premium adalah layanan berlangganan berbayar opsional dari platform media sosial X yang memberikan berbagai fitur tambahan dan peningkatan visibilitas kepada penggunanya.",
     variants: [
-      { name: "PREMIUM 3 BULAN VIA GIFT", price: 110000, stock: 1 },
-      { name: "PREMIUM 6 BULAN VIA GIFT", price: 200000, stock: 1 }
+      { name: "PREMIUM 3 BULAN VIA GIFT", price: 110000, stock: 0 },
+      { name: "PREMIUM 6 BULAN VIA GIFT", price: 200000, stock: 0 }
     ]
     },
   {
