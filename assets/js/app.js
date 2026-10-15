@@ -48,6 +48,46 @@ const PRODUCTS = [
       { name: "2 USER 1 PROFIL Garansi 25-30 Hari", price: 22000, stock: 1 },
       { name: "1 USER 1 PROFIL Garansi 25-30 Hari", price: 35000, stock: 1 }
     ]
+    },
+  {
+    id: 5,
+    name: "YOUTUBE",
+    category: "Entertainment",
+    img: "assets/img/youtube.png",
+    desc: "YouTube Premium memberikan pengalaman menonton yang lebih nyaman dengan akses penuh ke video, musik, dan konten favorit tanpa gangguan.",
+    variants: [
+      { name: "INDIVIDUAL 1 BULAN", price: 26000, stock: 5 }
+    ]
+    },
+  {
+    id: 6,
+    name: "VIDPLAT",
+    category: "Streaming",
+    img: "assets/img/vidplat.png",
+    desc: "Vidio adalah platform streaming lokal terbesar di Indonesia yang menyediakan film, serial, drama, olahraga, hingga TV lokal & internasional dalam satu aplikasi.",
+    variants: [
+      { name: "MOBILE ONLY", price: 32000, stock: 5 }
+    ]
+    },
+  {
+    id: 7,
+    name: "SPOTIFY",
+    category: "Music Streaming",
+    img: "assets/img/spotify.png",
+    desc: "Spotify adalah aplikasi streaming musik terbesar di dunia yang menghadirkan jutaan lagu, podcast, dan playlist dari berbagai genre dan artis favoritmu.",
+    variants: [
+      { name: "INDIVIDUAL 1 BULAN No Garansi", price: 25000, stock: 5 }
+    ]
+    },
+  {
+    id: 8,
+    name: "ZOOM PRO",
+    category: "Productivity Tools",
+    img: "assets/img/zoompro.png",
+    desc: "Zoom Pro adalah paket premium yang dirancang untuk kebutuhan meeting profesional dengan durasi yang lebih panjang, kualitas lebih stabil, dan fitur lengkap. Mulai dari kapasitas hingga 100 peserta, cloud recording, breakout rooms, hingga tools presentasi dan kolaborasi—semuanya tersedia dalam satu platform. Cocok untuk guru, mahasiswa, perusahaan, pelaku bisnis online, tim kerja remote, hingga penyelenggara webinar. Dengan Zoom Pro, kamu bisa menjalankan meeting tanpa batasan waktu, lebih aman,",
+    variants: [
+      { name: "ZOOM 14D", price: 10000, stock: 1 }
+    ]
   }
 ];
 /* ===== HELPER ===== */
