@@ -24,7 +24,7 @@ const PRODUCTS = [
     desc: "Canva adalah aplikasi desain grafis populer yang memudahkan siapa saja membuat poster, konten sosial media, presentasi, logo, hingga video dengan cepat dan praktis.",
     variants: [
       { name: "1 BULAN PRO (INVITE)", price: 5000, stock: 5, code: "canva1b", bot: true },
-      { name: "6 BULAN EDU GARANSI 3 BULAN", price: 8000, stock: 5, code: "canvaedu6b3b", bot: false },
+      { name: "6 BULAN EDU GARANSI 3 BULAN", price: 8000, stock: 5, code: "canvaedu6b3b", bot: true },
       { name: "1 TAHUN EDU GARANSI 6 BULAN", price: 15000, stock: 5, code: "canvaedu1t6b", bot: true },
       { name: "LIFETIME GARANSI 6 BULAN", price: 20000, stock: 5, code: "canvalifetime6b", bot: true },
       { name: "LIFETIME GARANSI 1 TAHUN", price: 22000, stock: 5, code: "canvalifetime", bot: true }
